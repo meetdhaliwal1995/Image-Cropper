@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.codility.imagecropper.MainActivity">
+
+    <android.support.v7.widget.AppCompatTextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/applicant_name"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40sp" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/tvHeader"
+        android:background="@color/colorPrimary" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/ll"
+        android:layout_margin="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/default_avatar" />
+
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:padding="10dp"
+        android:text="@string/app_info"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/btGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_background"
+        android:text="@string/select"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Image Cropper</string>
+    <string name="applicant_name">Android Codility</string>
+    <string name="select">Add/Select</string>
+    <string name="app_info">This utility can be used for configuring Profile Images or some image related tasks where you need to pick any image from gallery or camera and then get a cropped image out of it.</string>
+</resources>
